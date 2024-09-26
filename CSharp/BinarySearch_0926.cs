@@ -5,7 +5,7 @@ internal class Program
 
         List<int> li=new List<int>()
         {15,20,25,35,45,55,60,75,85,90};
-        Console.WriteLine("찾는 숫자를 입력(15,20,25,35,45,55,60,75,85,90): ");
+        Console.Write("찾는 숫자를 입력(15,20,25,35,45,55,60,75,85,90): ");
         int number=int.Parse(Console.ReadLine());
         int left = 0;
         int right = li.Count - 1;
